@@ -146,7 +146,7 @@ public class WeatherFragment extends Fragment{
 
     private void showInputDialog(){
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Сменить город");
+        builder.setTitle("Change city");
         final EditText input = new EditText(this);
         input.setInputType(InputType.TYPE_CLASS_TEXT);
         builder.setView(input);
